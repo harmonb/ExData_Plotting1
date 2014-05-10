@@ -26,7 +26,7 @@ datetime.df<-data.frame(datetime,datetime,datetime)
 ## 3) the line plot of three sub meters over the two days, and 4) a line plot
 ## of global reactive power over the two days
 
-png(file="pngplot4.png")
+png(file="plot4.png")
 par(mfrow=c(2,2))
 plot( datetime, as.numeric(data$Global_active_power), type='l',
      ylab="Global Active Power", xlab="")

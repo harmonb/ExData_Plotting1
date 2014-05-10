@@ -11,7 +11,7 @@
   datetime<-as.POSIXct(datetime, format="%d/%m/%Y %H:%M:%S")
 
 ## Make the histogram of Global Active Power as a png
-  png(file="pngplot1.png")
+  png(file="plot1.png")
   hist(as.numeric(data$Global_active_power), col='red',
     xlab="Global Active Power(kilowatts)", main="Global Active Power")
   dev.off()

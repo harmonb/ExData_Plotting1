@@ -22,7 +22,7 @@ nrg<-data.frame(nrg1,nrg2,nrg3)
 datetime.df<-data.frame(datetime,datetime,datetime)
 
 ## Make the line plot of Energy sub metering as a png
-png(file="pngplot3.png")
+png(file="plot3.png")
 plot(datetime.df[,1],nrg[,1],type="n",xlab="", ylab="Energy sub metering")
 points(datetime.df[,1],nrg[,1],type='l')
 points(datetime.df[,1],nrg[,2],type='l',col="red")

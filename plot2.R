@@ -11,6 +11,6 @@ datetime<-as.POSIXct(datetime, format="%d/%m/%Y %H:%M:%S")
 
 ## Make the line plot of time vs. Global active power as a png
 power<-as.numeric(data$Global_active_power)
-png(file="pngplot2.png")
+png(file="plot2.png")
 plot(datetime, power, type="l", xlab="", ylab="Global Active Power (kilowatts)")
 dev.off()
